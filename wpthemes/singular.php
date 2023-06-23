@@ -6,7 +6,7 @@
     <main id='main' class="site-main">
 
 
-    <h3>template: index.php</h3>
+    <h3>template: Singular.php</h3>
 
 
     <?php if ( have_posts() ) : while( have_posts() ) : the_post();   ?>
