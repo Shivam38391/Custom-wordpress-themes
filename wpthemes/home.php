@@ -4,9 +4,9 @@
 <div id="primary" class= "content-area">
 
     <main id='main' class="site-main">
+        <h1><?php wp_title( ) ?></h1>
 
-
-    <h3>template: index.php</h3>
+        <h3>template: HOME.php</h3>
 
 
     <?php if ( have_posts() ) : while( have_posts() ) : the_post();   ?>

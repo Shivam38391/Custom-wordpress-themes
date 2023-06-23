@@ -5,9 +5,9 @@
 
     <main id='main' class="site-main">
 
+    <h3>template: archive.php</h3>
 
-    <h3>template: index.php</h3>
-
+        <h1><?php the_archive_title( ) ?></h1>
 
     <?php if ( have_posts() ) : while( have_posts() ) : the_post();   ?>
 
