@@ -54,8 +54,22 @@ function custom_sidebar_init() {
     ];
 
 
+    $frontPage = [
+        "name" => esc_html__( "Front Page widget sidebar" ) ,
+        "id"  => "front-page",
+        "description" => esc_html__( "add widgets for front page here" ),
+        "before_widget" => "<section class='widget'>",
+        "after_widget" => "</section>",
+        "before_title" => "<h2 class='widget-title'>",
+        "after_title" => "</h2>",
+    ];
+
+
+
 
     register_sidebar( $args );
+    register_sidebar( $frontPage );
+
 }
 
 add_action( 'widgets_init', 'custom_sidebar_init' );
