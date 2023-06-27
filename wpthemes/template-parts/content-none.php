@@ -6,5 +6,8 @@
 
                 <div class="entry-content">
                     <p>Soory! the content is not found</p>
+
+                    <p><?php echo get_search_form( ); ?></p>
+                    
                 </div>
 </article>
