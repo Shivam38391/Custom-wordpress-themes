@@ -8,7 +8,7 @@
 
     <h3 style="color:deeppink">template: SEARCH.php</h3>
 
-
+<h1>SEARCH RESULT: <?php echo get_search_query( ); ?> </h1>
     <?php if ( have_posts() ) : while( have_posts() ) : the_post();   ?>
 
         <?php get_template_part( "template-parts/content", "search" ); ?>
